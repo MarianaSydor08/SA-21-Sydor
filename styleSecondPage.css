@@ -1,0 +1,333 @@
+* {
+	scroll-behavior: smooth;     <!-- плавна поведінка при прокрученні -при нажиманні на якір-  ;   * означає , шо всі параметри, які в фігурних дужках, застосовуються для ВСІХ елементів сайту -->
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+    font-family: 'Champagne & Limousines';
+    src: url('fonts.ttf') ;
+}
+
+/*html {
+  background-color: #F2D9C4;
+}*/
+
+
+video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover ;
+  position: fixed;
+  z-index: -1;
+}
+
+main{
+  background-color: #F2D9C4 ;
+  font-family: 'Champagne & Limousines Regular', sans-serif;
+  color: #53372B; 
+}
+
+/*
+.vid{
+  z-index: -1;
+}*/
+
+header{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+
+
+.header-text{
+
+  padding: 30px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform:  translate(-50%, -50%);
+  background-color: rgba(83, 55, 43, 0.7);
+  text-align: center;
+}
+
+.header-text p{
+  color: #F2D9C4;
+  font-family: 'Champagne & Limousines Regular', sans-serif;
+  font-weight: 400px;
+  font-size: 40px ;
+}
+
+@media (max-width: 800px){
+  .header-text p{
+    font-size: 30px ;
+  }
+
+  .header-text{
+    padding: 5px 30px;
+  }
+}
+
+
+
+.section-bgr :hover {
+  background-color: #fffaf5;
+}
+
+ul{
+  list-style: none;
+  font-family: 'Champagne & Limousines Bold', sans-serif;
+  padding:  0px;
+}
+
+
+
+.price-color:hover {
+  background-color: #53372B;
+}
+
+.price-color_:hover {
+  background-color: #53372B;
+}
+
+.button-order:hover {
+  background-color: #7a5445;
+}
+
+.section-price {
+  height: 100vh;
+  background-size: cover;
+}
+
+#price {
+      padding: 80px 0 ;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 40px;
+    }
+
+.price-container {
+    display: flex;
+    justify-content: space-around; 
+    margin: 0px 0px 20px 0px;
+    padding: 20px 0px 100px 0px;
+
+}
+
+.price-item {
+    text-align: center;
+    background-color: #F8EADE;
+    padding: 0px 0px 20px 0px;
+    border: 5px solid #53372B;
+
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+    word-wrap: break-word;
+    min-width: 250px;
+
+}
+
+.price-item p {
+    font-weight: bold;  
+}
+
+.price-item ul {
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price-item ul li {
+    margin: 5px 0; 
+}
+
+
+
+
+.price-item a {
+    text-decoration: none;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+
+
+    justify-content: center; 
+    align-items: center;
+}
+
+.price-item button {
+    background-color: #53372B;
+    color: #F2D9C4;
+    font-size: 20px;
+    margin: 40px 80px 40px 80px;
+    padding: 10px 25px 10px 25px;
+    border: none;
+    cursor: pointer;
+  border-radius: 10px ;
+
+    
+}
+
+.button-ord {
+  display: none;
+  margin-top: -100px;
+  margin-left: -100px;
+  
+
+}
+.button-order {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.price-color {
+  background-color: #53372B;
+  padding: 22px 0px;
+  margin: 0px 0px 25px 0px;
+  color: white;
+  font-size: 25px;
+  border: 2px solid #F2D9C4;
+}
+
+.price-color_ {
+  background-color: #53372B;
+  padding: 22px 0px;
+  margin: 0px 0px 25px 0px;
+  color: white;
+  font-size: 25px;
+  border: 2px solid #F2D9C4;
+}
+
+.price-text {
+  font-size: 2.0em;
+}
+
+.money {
+  padding-bottom: 20px;
+}
+
+.custom-color__ {
+  color: #FFFFFF;
+  font-size: 30px;
+  margin-top: 40px;
+  /*margin-left: 60px;*/
+}
+
+
+
+
+
+@media (max-width: 1200px) {
+  .section-price {
+        height: auto; /* Змінено висоту на автоматичну для адаптації */
+    }
+
+  .price-container {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+    .price-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+
+
+   .section-bgr {
+        max-width: 100%;
+        max-height: 100%;
+        width: 400px;  /*Змінено максимальну ширину контейнера */
+        /*margin: 0 auto; /* Центруємо контейнер по горизонталі */
+
+    }
+    
+    .price-container button-order {
+      justify-content: center;
+      align-items: center;
+    }
+
+     .price-item {
+      width: 300px;
+      margin-bottom: 20px;
+
+      max-height: 200px;
+    }
+
+    .price-item p,
+    .price-item ul {
+      text-align: center;
+      overflow-wrap: break-word;
+
+    }
+
+    .price-item:first-child {
+      margin-top: -30px; /* Додаємо відступ зверху тільки для першого елементу */
+      margin-bottom: 100px;
+      padding-bottom: 150px;
+    }
+     .button-order {
+        display: none;
+    }
+
+    /*.button-ord {
+    display: block;
+    margin-right: 120px;
+    cursor: pointer;
+  }*/
+
+  .button-ord {
+    display: block;
+    margin-top: -100px;
+    margin-left: -100px;
+    justify-content: center;
+    background-color: #F2D9C4;
+  }
+
+  button {
+    margin-top: -10px;
+    margin-right: 10px;
+  }
+
+  #price {
+      
+      font-size: 30px;
+    }
+
+    .price-container {
+   
+    padding: 30px 0px 0px 80px;
+
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .price-container {
+      margin-left: -30px;
+  }
+}
+
+@media (max-width: 600px) {
+  #price {
+      font-size: 20px;
+    }
+
+  .section-bgr{
+    width: 350px ;
+
+  }
+}
+
