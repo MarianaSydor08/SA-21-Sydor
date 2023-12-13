@@ -593,7 +593,7 @@ margin: 0 -40px ;}
 	  height: 26px;
 	  cursor: pointer;
 	  z-index: 30;
-	  top: 10px;
+	  top: 9px;
 	  right: 30px; 
 	}
 	 
@@ -679,8 +679,7 @@ margin: 0 -40px ;}
 
 	#menu-toggle:checked ~ .menu-btn {
     position: fixed;
-    /*top: 20px;
-    right: 20px; */
+    
   }
 }
 
