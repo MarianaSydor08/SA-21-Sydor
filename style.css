@@ -230,8 +230,8 @@ h1{
 }
 
 .logo-up{
-	width: 101px;
-	height: 55px;
+	width: 85px;
+	height: 45px;
 }
 
 .photo-temporary-small{
@@ -593,7 +593,7 @@ margin: 0 -40px ;}
 	  height: 26px;
 	  cursor: pointer;
 	  z-index: 30;
-	  top: 25px;
+	  top: 10px;
 	  right: 30px; 
 	}
 	 
