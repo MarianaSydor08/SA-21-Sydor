@@ -123,6 +123,10 @@ nav a {
 	font-family: 'Champagne & Limousines Bold', sans-serif;
 }
 
+.number{
+	text-decoration: none;
+}
+
 .burger-menu {
 	display: none;
 }
